@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Place New Orkut</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Market.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="custom-logo" src="assets/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <li class="nav-button">
+                <a  href="perfil.html">Voltar ao perfil</a>
+            </li>
+            <a class="navbar-brand" href="#">
+                <img class="custom-logo" src="assets/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim Menu de Navegação -->
+
+    <!--Carrosel-->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: url('./assets/img/001.jpeg')">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">First Slide</h2>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div> -->
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('./assets/img/002.jpeg')">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Second Slide</h2>
+                        <p class="lead">This is a description for the second slide.</p>
+                    </div> -->
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('./assets/img/003.jpeg')">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Third Slide</h2>
+                        <p class="lead">This is a description for the third slide.</p>
+                    </div> -->
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!--Fim do Carrosel-->
+
+    <hr class="featurette-divider">
+
+    <a id="sobre"></a>
+    <div class="container">
+
+        <!--Sobre-->
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Market Place</h2>
+                <p class="lead">Aqui você vende ou desapega de produtos que você queira negociar <br /><br />
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid rounded-top mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3mqbIZK2_elxTtDjETLVaojA9VbRFln9-Q&usqp=CAU" 
+                    alt="Market Place">
+            </div>
+        </div>
+        <!--Fim do Sobre-->
+
+
+
+        <!--Preços-->
+        <a id="precos"></a>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Produtos</h1>
+            <p class="lead">mostre seu produto</p>
+        </div>
+
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <img src="https://a-static.mlcdn.com.br/1500x1500/smartphone-lg-k52-64gb-cinza-4g-octa-core-3gb-ram-tela-66-cam-quadrupla-selfie-8mp-dual-chip/magazineluiza/155593000/6f4eefb28489f2e25f86d1f113ce8d67.jpg" class="card-img-top" alt="...">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">celular LG</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">R$ 1000<small class="text-muted">,00</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>aparelho semi-novo</li>
+                        <li>Parcelamento em até 4x sem juros</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Serviço Programador fullstack</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">R$ 1000<small class="text-muted">,00</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>por hora</li>
+                        <li>Parcelamento em até 4x sem juros</li>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRLZRgsYPATPwOjgSt9a6p2tcLXrNu1IHSeg&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Motorista particular</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">R$ 650<small class="text-muted">,00</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>corridas de a partir de 250km de distacia</li>
+                        <li>inclui serviço + pedagios</li>
+                        <li>Parcelamento em até 4x sem juros</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <!--Fim Preços-->
+
+        <!--Contatos-->
+        <a id="contatos"></a>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Contatos</h1>
+            <p class="lead">
+
+                Entre em contato: 
+
+                <p>
+                    <a target="_blank" href="https://www.linkedin.com/feed/">
+                        <button class="btn btn-outline-secondary"><i class="fab fa-instagram"></i>linkedin</button>
+                    </a>
+
+                    <a target="_blank" href="https://web.whatsapp.com/">
+                        <button class="btn btn-outline-secondary"><i class="fab fa-whatsapp"></i> Whatsapp</button>
+                    </a>
+                </p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7349.656573085878!2d-43.19781534999999!3d-22.919703549999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fa0cbaceec1%3A0x251f54c52f904f5d!2sCatumbi%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1669040759112!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+
+            </p>
+        </div>
+        <!--Fim do Contatos-->
+        
+    </div>
+
+    
+
+
+
+        <!-- <h1>Hello World!</h1> -->
+
+</body>
+
+</html>
